@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página de consulta de informações." />
+    <meta name="robots" content="noindex"/>
+    <title>Resumo - título provisório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Resumo Pharma</h1>
+    </header>
+
+    <!-- CORPO PRINCIPAL -->
+    <main>
+
+        <!-- BOAS VINDAS -->
+        <section class="card">
+            <h2>Bem-vindo!</h2>
+            <p>Este compilado foi feito para uso pessoal, mas sinta-se a vontade se quiser tentar. :D</p>
+            <button id="togglebtn">Acessar</button>
+        </section>
+
+        
+        <!-- Talvez deixar esse display hidden para surgir com o botão acessar -->
+        <section class="navContainer hidden">
+            <nav>
+                <ul>
+                    <li><a href="">Regulamentação</a></li>
+                    <li><a href="">MIPS</a></li>
+                    <li><a href="">HIPERTENSÃO</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="card">
+            <!-- Será que cabem dois quadrados lado a lado aqui ? para exibir pesquisas recentes -->
+             
+            <div class="duoCards">
+                <div class="miniCard">
+                    <h3>Última pesquisa</h3>
+                    <p>Losartana</p>
+                </div>
+
+                <div class="miniCard">
+                    <h3>Mais acessado</h3>
+                    <p>Dipirona</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Barra de pesquisa -->
+        <div class="searchContainer">
+            <h2>Pesquisar</h2>
+            <input type="search" placeholder="Nome do fármaco">
+            <div class="btn">
+                <button>Buscar</button>
+            </div>
+            
+        </div>
+        
+
+        
+        
+        
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+        <small>&copy; 2024 Resumo Pharma</small>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
